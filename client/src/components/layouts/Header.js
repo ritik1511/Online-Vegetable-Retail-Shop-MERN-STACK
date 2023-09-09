@@ -77,7 +77,9 @@ const Header = () => {
                                     ))}
                                 </ul>
                             </li>
-
+                            <li className="nav-item">
+                                <NavLink to='/prediction' className="nav-link" aria-current="page" href="#">Predictor</NavLink>
+                            </li>
                             {!auth?.user ? (
                                 <>
                                     <li className="nav-item">

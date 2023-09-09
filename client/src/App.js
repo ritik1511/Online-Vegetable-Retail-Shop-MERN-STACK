@@ -27,6 +27,7 @@ import Categories from "./pages/Categories";
 import CategoryProduct from "./pages/CategoryProduct";
 import CartPage from "./pages/CartPage";
 import AdminOrders from "./pages/Admin/AdminOrders";
+import Prediction from "./pages/VegetablePricePrediction";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/product/:slug" element={<ProductDetails />}></Route>
         <Route path="/categories" element={<Categories />}></Route>
+        <Route path="/prediction" element={<Prediction />}></Route>
         <Route path="/cart" element={<CartPage />}></Route>
         <Route path="/category/:slug" element={<CategoryProduct />}></Route>
         <Route path="/search" element={<Search />}></Route>
